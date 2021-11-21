@@ -6,5 +6,7 @@
 ## Reference
 
 * [API Reference](reference/api-reference/README.md)
-  * [Pets](reference/api-reference/pets.md)
-  * [Users](reference/api-reference/users.md)
+  * [Tables](reference/api-reference/tables.md)
+  * [Classes](reference/api-reference/classes/README.md)
+    * [buff\_cache](reference/api-reference/classes/buff\_cache.md)
+    * [entity\_list](reference/api-reference/classes/entity\_list.md)
