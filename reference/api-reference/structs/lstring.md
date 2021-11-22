@@ -1,7 +1,10 @@
 # lstring
 
-text
+## Members
 
-size
+* `text: string`
+* `size: number`
+
+## Functions
 
 is\_valid

@@ -1,21 +1,21 @@
 # c\_spell\_cast\_info
 
-slot
+## Members
 
-missile\_index
+* `slot: e_spell_slot`
+* `missile_index: number`
+* `start_position: vec3`
+* `end_position: vec3`
+* `windup_time: number`
+* `total_cast_time: number`
+* `server_cast_time: number`
+* `end_time: number`
+* `start_time: number`
 
-start\_position
+## Functions
 
-end\_position
+### get\_target\_index
 
-windup\_time
-
-total\_cast\_time
-
-server\_cast\_time
-
-end\_time
-
-start\_time
-
-get\_target\_index
+```lua
+spell_cast_info:get_target_index(): number
+```

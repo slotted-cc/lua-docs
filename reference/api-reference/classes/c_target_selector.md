@@ -1,11 +1,33 @@
 # c\_target\_selector
 
-get\_default\_target
+## Functions
 
-get\_orbwalker\_default\_target
+### get\_default\_target
 
-get\_forced\_target
+```lua
+g_features.target_selector:get_default_target(): c_object | nil
+```
 
-is\_forced
+### get\_orbwalker\_default\_target
 
-is\_bad\_target
+```lua
+g_features.target_selector:get_orbwalker_default_target(): c_object | nil
+```
+
+### get\_forced\_target
+
+```lua
+g_features.target_selector:get_forced_target(): c_object | nil
+```
+
+### is\_forced
+
+```lua
+g_features.target_selector:is_forced(): bool
+```
+
+### is\_bad\_target
+
+```lua
+g_features.target_selector:is_bad_target( index: number ): bool
+```

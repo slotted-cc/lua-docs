@@ -1,4 +1,6 @@
-# buff\_cache
+# c\_buff\_cache
+
+## Functions
 
 ### get\_buff
 

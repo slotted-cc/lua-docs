@@ -1,27 +1,17 @@
 # c\_buff
 
-active
+## Members
 
-hard\_cc
-
-disabling
-
-knock\_up
-
-silence
-
-cripple
-
-invincible
-
-slow
-
-type
-
-start\_time
-
-end\_time
-
-alt\_amount
-
-name
+* `active: bool`
+* `hard_cc: bool`
+* `disabling: bool`
+* `knock_up: bool`
+* `silence: bool`
+* `cripple: bool`
+* `invincible: bool`
+* `slow: bool`
+* `type: number`
+* `start_time: number`
+* `end_time: number`
+* `alt_amount: number`
+* `name: string`

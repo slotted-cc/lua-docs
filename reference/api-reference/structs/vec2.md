@@ -1,8 +1,11 @@
 # vec2
 
-x
+## Members
 
-y
+* `x: number`
+* `y: number`
+
+## Functions
 
 length
 

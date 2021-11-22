@@ -1,17 +1,19 @@
 # c\_entity\_list
 
-force\_update
+## Functions
 
-get\_enemies
+### force\_update
 
-get\_allies
+### get\_enemies
 
-get\_enemy\_turrests
+### get\_allies
 
-get\_ally\_turrets
+### get\_enemy\_turrests
 
-get\_ally\_minions
+### get\_ally\_turrets
 
-get\_enemy\_minions
+### get\_ally\_minions
 
-get\_by\_index
+### get\_enemy\_minions
+
+### get\_by\_index

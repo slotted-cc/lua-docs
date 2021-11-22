@@ -6,6 +6,10 @@
 ## Reference
 
 * [API Reference](reference/api-reference/README.md)
+  * [Enums](reference/api-reference/enums/README.md)
+    * [e\_orbwalker\_mode](reference/api-reference/enums/e\_orbwalker\_mode.md)
+    * [e\_hitchance](reference/api-reference/enums/e\_hitchance.md)
+    * [e\_spell\_slot](reference/api-reference/enums/e\_spell\_slot.md)
   * [Tables](reference/api-reference/tables.md)
   * [Classes](reference/api-reference/classes/README.md)
     * [c\_object](reference/api-reference/classes/c\_object.md)
@@ -21,6 +25,7 @@
     * [c\_buff\_cache](reference/api-reference/classes/c\_buff\_cache.md)
     * [c\_entity\_list](reference/api-reference/classes/c\_entity\_list.md)
   * [Structs](reference/api-reference/structs/README.md)
+    * [prediction\_result\_t](reference/api-reference/structs/prediction\_result\_t.md)
     * [vec2](reference/api-reference/structs/vec2.md)
     * [vec3](reference/api-reference/structs/vec3.md)
     * [lstring](reference/api-reference/structs/lstring.md)

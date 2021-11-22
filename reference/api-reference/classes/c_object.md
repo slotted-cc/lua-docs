@@ -37,53 +37,153 @@
 
 ## Functions
 
-is\_recalling
+### is\_recalling
 
-is\_local
+```lua
+object:is_recalling(): bool
+```
 
-is\_game\_object
+### is\_local
 
-is\_dead\_object
+```
+object:is_local(): bool
+```
 
-is\_invalid\_object
+### is\_game\_object
 
-is\_neutral\_camp
+```
+object:is_game_object(): bool
+```
 
-is\_ai\_base\_common
+### is\_dead\_object
 
-is\_attackable\_unit
+```
+object:is_dead_object(): bool
+```
 
-is\_ai
+### is\_invalid\_object
 
-is\_minion
+```
+object:is_invalid_object(): bool
+```
 
-is\_hero
+### is\_neutral\_camp
 
-is\_building
+```
+object:is_neutral_camp(): bool
+```
 
-is\_missile
+### is\_ai\_base\_common
 
-is\_invisible
+```
+object:is_ai_base_common(): bool
+```
 
-is\_visible
+### is\_attackable\_unit
 
-is\_targetable
+```
+object:is_attackable_unit(): bool
+```
 
-is\_alive
+### is\_ai
 
-is\_dead
+```
+object:is_ai(): bool
+```
 
-is\_enemy
+### is\_minion
 
-is\_ally
+```
+object:is_minion(): bool
+```
 
-dist\_to\_local
+### is\_hero
 
-get\_attack\_damage
+```
+object:is_hero(): bool
+```
 
-get\_bonus\_attack\_damage
+### is\_building
 
-get\_spell\_book
+```
+object:is_building(): bool
+```
 
-get\_buff\_manager
+### is\_missile
+
+```
+object:is_missile(): bool
+```
+
+### is\_invisible
+
+```
+object:is_invisible(): bool
+```
+
+### is\_visible
+
+```
+object:is_visible(): bool
+```
+
+### is\_targetable
+
+```
+object:is_targetable(): bool
+```
+
+### is\_alive
+
+```
+object:is_alive(): bool
+```
+
+### is\_dead
+
+```
+object:is_dead(): bool
+```
+
+### is\_enemy
+
+```
+object:is_enemy(): bool
+```
+
+### is\_ally
+
+```
+object:is_ally(): bool
+```
+
+### dist\_to\_local
+
+```
+object:dist_to_local(): number
+```
+
+### get\_attack\_damage
+
+```
+object:get_attack_damage(): number
+```
+
+### get\_bonus\_attack\_damage
+
+```lua
+object:get_bonus_attack_damage(): number
+```
+
+### get\_spell\_book
+
+```
+object:get_spell_book(): c_spell_book
+```
+
+### get\_buff\_manager
+
+```lua
+object:get_buff_manager(): c_buff_manager
+```
 

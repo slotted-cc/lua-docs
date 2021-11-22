@@ -1,10 +1,12 @@
 # vec3
 
-x
+## Members
 
-y
+* `x: number`
+* `y: number`
+* `z: number`
 
-z
+## Functions
 
 length
 
