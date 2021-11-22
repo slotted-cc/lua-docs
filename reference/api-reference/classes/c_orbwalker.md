@@ -17,3 +17,7 @@ get\_ping
 get\_mode
 
 reset\_aa\_timer
+
+can\_attack
+
+should\_rest_\_aa_

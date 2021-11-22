@@ -1,78 +1,89 @@
 # c\_object
 
-index
+## Members
 
-next\_object\_index
+* `index: number`
+* `next_object_index: number`
+* `team: number`
+* `network_id: number`
+* `framecount: number`
+* `position: vec3`
+* `mana: number`
+* `max_mana: number`
+* `mana_enabled: number`
+* `physical_damage_percentage_modifier: number`
+* `magical_damage_percentage_modifier: number`
+* `health: number`
+* `max_health: number`
+* `bonus_attack: number`
+* `bonus_attack_speed: number`
+* `life_steal: number`
+* `attack_speed: number`
+* `base_attack: number`
+* `crit_chance: number`
+* `toal_armor: number`
+* `bonus_armor: number`
+* `total_mr: number`
+* `base_health_regen: number`
+* `total_health_regen: number`
+* `movement_speed: number`
+* `attack_range: number`
+* `gold: number`
+* `total_gold: number`
+* `min_gold: number`
+* `max_gold: number`
+* `champion_name: lstring`
+* `level: number`
 
-team
+## Functions
 
-network\_id
+is\_recalling
 
-is\_visible\_on\_screen
+is\_local
 
-framecount
+is\_game\_object
 
-position
+is\_dead\_object
 
-mana
+is\_invalid\_object
 
-max\_mana
+is\_neutral\_camp
 
-mana\_enabled
+is\_ai\_base\_common
 
-visible
+is\_attackable\_unit
 
-physical\_damage\_percentage\_modifier
+is\_ai
 
-magical\_damage\_percentage\_modifier
+is\_minion
 
-recall\_flag
+is\_hero
 
-health
+is\_building
 
-max\_health
+is\_missile
 
-bonus\_attack
+is\_invisible
 
-bonus\_attack\_speed
+is\_visible
 
-life\_steal
+is\_targetable
 
-attack\_speed
+is\_alive
 
-base\_attack
+is\_dead
 
-crit\_chance
+is\_enemy
 
-toal\_armor
+is\_ally
 
-bonus\_armor
+dist\_to\_local
 
-total\_mr
+get\_attack\_damage
 
-base\_health\_regen
+get\_bonus\_attack\_damage
 
-total\_health\_regen
+get\_spell\_book
 
-movement\_speed
-
-attack\_range
-
-gold
-
-total\_gold
-
-min\_gold
-
-max\_gold
-
-buff\_manager
-
-spell\_book
-
-get\_object\_name
-
-champion\_name
-
-level
+get\_buff\_manager
 
