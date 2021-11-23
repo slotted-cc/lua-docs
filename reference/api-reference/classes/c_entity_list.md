@@ -51,5 +51,5 @@ g_features.entity_list:get_enemy_minions(): table< c_object >
 | index    | `number` | +        |
 
 ```lua
-g_features.entity_list:get_by_index( index ): c_object | nil
+g_features.entity_list:get_by_index(index): c_object | nil
 ```

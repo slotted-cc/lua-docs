@@ -15,6 +15,7 @@
     * [cheat](reference/api-reference/tables/cheat.md)
     * [g\_features](reference/api-reference/tables/g\_features.md)
   * [Classes](reference/api-reference/classes/README.md)
+    * [c\_renderer](reference/api-reference/classes/c\_renderer.md)
     * [c\_object](reference/api-reference/classes/c\_object.md)
     * [c\_spell\_cast\_info](reference/api-reference/classes/c\_spell\_cast\_info.md)
     * [c\_spell\_book](reference/api-reference/classes/c\_spell\_book.md)
@@ -33,3 +34,4 @@
     * [vec2](reference/api-reference/structs/vec2.md)
     * [vec3](reference/api-reference/structs/vec3.md)
     * [lstring](reference/api-reference/structs/lstring.md)
+  * [Globals](reference/api-reference/globals.md)

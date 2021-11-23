@@ -11,9 +11,9 @@
 cheat.register_callback( name, callback )
 
 -- usage example
-cheat.register_callback( "render", function()
+cheat.register_callback("render", function()
     print("hello from render callback")    
-end )
+end)
 ```
 
 #### Available callbacks

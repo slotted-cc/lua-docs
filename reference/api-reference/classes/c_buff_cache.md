@@ -10,7 +10,7 @@
 | name          | `string` | +        |
 
 ```
-g_features.buff_cache:get_buff( object_name, name ): buff_cache_t
+g_features.buff_cache:get_buff(object_name, name): buff_cache_t
 ```
 
 ### has\_buff\_of\_typ**e**
@@ -21,7 +21,7 @@ g_features.buff_cache:get_buff( object_name, name ): buff_cache_t
 | type          | `e_buff_type` | +        |
 
 ```
-g_features.buff_cache:get_buff( object_index, type ): bool
+g_features.buff_cache:get_buff(object_index, type): bool
 ```
 
 ### **has**\_hard\_cc
@@ -31,7 +31,7 @@ g_features.buff_cache:get_buff( object_index, type ): bool
 | object\_index | `number` | +        |
 
 ```
-g_features.buff_cache:has_hard_cc( object_index ): bool
+g_features.buff_cache:has_hard_cc(object_index): bool
 ```
 
 ### is\_immobile
@@ -41,7 +41,7 @@ g_features.buff_cache:has_hard_cc( object_index ): bool
 | object\_index | `number` | +        |
 
 ```
-g_features.buff_cache:is_immobile( object_index ): bool
+g_features.buff_cache:is_immobile(object_index): bool
 ```
 
 ### can\_cast
@@ -51,7 +51,7 @@ g_features.buff_cache:is_immobile( object_index ): bool
 | object\_index | `number` | +        |
 
 ```
-g_features.buff_cache:can_cast( object_index ): bool
+g_features.buff_cache:can_cast(object_index): bool
 ```
 
 ### get\_all\_buffs
@@ -61,6 +61,6 @@ g_features.buff_cache:can_cast( object_index ): bool
 | object\_index | `number` | +        |
 
 ```
-g_features.buff_cache:get_all_buffs( object_index ): table< buff_cache_t >
+g_features.buff_cache:get_all_buffs(object_index): table< buff_cache_t >
 ```
 

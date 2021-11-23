@@ -10,7 +10,7 @@
 | safe\_distance | `bool` | +        |
 
 ```lua
-g_features.evade:is_position_safe( position: vec3, safe_distance: bool ): bool
+g_features.evade:is_position_safe(position, safe_distance): bool
 ```
 
 ### is\_active

@@ -27,7 +27,7 @@ vec:length2d(): number
 | other    | `vec3` | +        |
 
 ```
-vec:dist_to( other ): number
+vec:dist_to(other): number
 ```
 
 ### dot
@@ -37,7 +37,7 @@ vec:dist_to( other ): number
 | other    | `vec3` | +        |
 
 ```
-vec:dot( other ): number
+vec:dot(other): number
 ```
 
 ### cross
@@ -47,7 +47,7 @@ vec:dot( other ): number
 | other    | `vec3` | +        |
 
 ```
-vec:cross( other ): number
+vec:cross(other): number
 ```
 
 ### normalized
@@ -63,7 +63,7 @@ vec:normalized(): vec3
 | other    | `vec3` | +        |
 
 ```
-vec:angle_between( other ): float
+vec:angle_between(other): float
 ```
 
 ### rotated
@@ -73,7 +73,7 @@ vec:angle_between( other ): float
 | angle    | `number` | +        |
 
 ```
-vec:rotated( angle ): vec3
+vec:rotated(angle): vec3
 ```
 
 ### extend
@@ -84,7 +84,7 @@ vec:rotated( angle ): vec3
 | distance | `number` | +        |
 
 ```
-vec:extend( to, distance ): vec3
+vec:extend(to, distance): vec3
 ```
 
 ### to\_screen

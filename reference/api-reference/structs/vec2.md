@@ -20,5 +20,5 @@ vec:length(): number
 | other    | `vec2` | +        |
 
 ```
-vec:dist_to( other ): numver
+vec:dist_to(other): numver
 ```

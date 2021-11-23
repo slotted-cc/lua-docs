@@ -33,5 +33,5 @@ g_features.target_selector:is_forced(): bool
 | index    | number | +        |
 
 ```lua
-g_features.target_selector:is_bad_target( index ): bool
+g_features.target_selector:is_bad_target(index): bool
 ```
