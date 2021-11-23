@@ -31,8 +31,8 @@ g_input:send_key_event(key, state)
 
 | Argument      | Type             | Required |
 | ------------- | ---------------- | -------- |
-| mouse\_button | e\_mouse\_button | +        |
-| state         | e\_mouse\_state  | +        |
+| mouse\_button | `e_mouse_button` | +        |
+| state         | `e_key_state`    | +        |
 
 ```
 g_input:send_mouse_key_event(mouse_button, state)
@@ -40,9 +40,9 @@ g_input:send_mouse_key_event(mouse_button, state)
 
 ### issue\_order\_move
 
-| Argument | Type | Required |
-| -------- | ---- | -------- |
-| position | vec3 | +        |
+| Argument | Type   | Required |
+| -------- | ------ | -------- |
+| position | `vec3` | +        |
 
 ```
 g_input:issue_order_move(position)
