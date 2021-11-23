@@ -4,42 +4,68 @@
 
 ### predict
 
+| Argument          | Type     | Required |
+| ----------------- | -------- | -------- |
+| index             | `number` | +        |
+| projectile\_range | `number` | +        |
+| projectile\_speed | `number` | +        |
+| projectile\_width | `number` | +        |
+| delay             | `number` | +        |
+| source\_position  | `vec3`   | +        |
+
 ```lua
 g_features.prediction:predict( 
-    index: number,
-    projectile_range: number,
-    projectile_speed: number,
-    projectile_width: number,
-    delay: number,
-    source_position: vec3
+    index,
+    projectile_range,
+    projectile_speed,
+    projectile_width,
+    delay,
+    source_position
 ): prediction_result_t
 ```
 
 ### predict\_default
 
+| Argument | Type     | Required |
+| -------- | -------- | -------- |
+| index    | `number` | +        |
+| time     | `number` | +        |
+
 ```lua
 g_features.prediction:predict_default( 
-    index: number,
-    time: number
+    index,
+    time
 ): vec3 | nil
 ```
 
 ### predict\_health
 
+| Argument | Type       | Required |
+| -------- | ---------- | -------- |
+| object   | `c_object` | +        |
+| time     | `number`   | +        |
+
 ```lua
 g_features.prediction:predict_health( 
-    object: c_object,
-    time: number
+    object,
+    time
 ): number
 ```
 
 ### minion\_in\_line
 
+| Argument             | Type     | Required |
+| -------------------- | -------- | -------- |
+| start\_pos           | `vec3`   | +        |
+| end\_pos             | `vec3`   | +        |
+| projectile\_width    | `number` | +        |
+| ignored\_network\_id | `number` | +        |
+
 ```lua
 g_features.prediction:minion_in_line( 
-    start_pos: vec3,
-    end_pos: vec3,
-    projectile_width: number,
-    ignored_network_id: number
+    start_pos,
+    end_pos,
+    projectile_width,
+    ignored_network_id
 ): bool
 ```

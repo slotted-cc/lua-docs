@@ -4,8 +4,12 @@
 
 ### send\_attack
 
+| Argument    | Type     | Required |
+| ----------- | -------- | -------- |
+| network\_id | `number` | +        |
+
 ```lua
-g_features.orbwalker:send_attack( network_id: number ): bool
+g_features.orbwalker:send_attack( network_id ): bool
 ```
 
 ### is\_in\_attack
@@ -16,14 +20,23 @@ g_features.orbwalker:is_in_attack(): bool
 
 ### send\_move\_input
 
+| Argument | Type   | Required |
+| -------- | ------ | -------- |
+| position | `vec3` | +        |
+| force    | `bool` | +        |
+
 ```
-g_features.orbwalker:send_move_input( position: vec3, bool force )
+g_features.orbwalker:send_move_input( position, force )
 ```
 
 ### set\_cast\_time
 
+| Argument | Type     | Required |
+| -------- | -------- | -------- |
+| time     | `number` | +        |
+
 ```
-g_features.orbwalker:set_cast_time( time: number )
+g_features.orbwalker:set_cast_time( time )
 ```
 
 ### can\_move
@@ -34,8 +47,14 @@ g_features.orbwalker:can_move(): bool
 
 ### is\_attackable
 
+| Argument    | Type     | Required |
+| ----------- | -------- | -------- |
+| index       | `number` | +        |
+| range       | `number` | +        |
+| edge\_range | `bool`   | +        |
+
 ```
-g_features.orbwalker:is_attackable( index: number, range: number, edge_range: bool ): bool
+g_features.orbwalker:is_attackable( index, range, edge_range ): bool
 ```
 
 ### get\_ping

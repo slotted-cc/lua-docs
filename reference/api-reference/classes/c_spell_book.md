@@ -4,6 +4,10 @@
 
 ### get\_spell\_slot
 
+| Argument | Type           | Required |
+| -------- | -------------- | -------- |
+| slot     | `e_spell_slot` | +        |
+
 ```lua
 spell_book:get_spell_slot( slot: e_spell_slot ): c_spell_slot
 ```

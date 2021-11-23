@@ -28,6 +28,10 @@ g_features.target_selector:is_forced(): bool
 
 ### is\_bad\_target
 
+| Argument | Type   | Required |
+| -------- | ------ | -------- |
+| index    | number | +        |
+
 ```lua
-g_features.target_selector:is_bad_target( index: number ): bool
+g_features.target_selector:is_bad_target( index ): bool
 ```

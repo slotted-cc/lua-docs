@@ -1,7 +1,7 @@
 # e\_orbwalker\_mode
 
 ```lua
-local e_hitchance = {
+local e_orbwalker_mode = {
     none = 0,
     combo = 1,
     lasthit = 2,
