@@ -7,4 +7,8 @@
 
 ## Functions
 
-is\_valid
+### is\_valid
+
+```
+string:is_valid(): bool
+```

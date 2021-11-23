@@ -8,20 +8,87 @@
 
 ## Functions
 
-length
+### length
 
-length2d
+```
+vec:length(): number
+```
 
-dist\_to
+### length2d
 
-dot
+```
+vec:length2d(): number
+```
 
-cross
+### dist\_to
 
-normalized
+| Argument | Type   | Required |
+| -------- | ------ | -------- |
+| other    | `vec3` | +        |
 
-angle\_between
+```
+vec:dist_to( other ): number
+```
 
-rotated
+### dot
 
-extend
+| Argument | Type   | Required |
+| -------- | ------ | -------- |
+| other    | `vec3` | +        |
+
+```
+vec:dot( other ): number
+```
+
+### cross
+
+| Argument | Type   | Required |
+| -------- | ------ | -------- |
+| other    | `vec3` | +        |
+
+```
+vec:cross( other ): number
+```
+
+### normalized
+
+```
+vec:normalized(): vec3
+```
+
+### angle\_between
+
+| Argument | Type   | Required |
+| -------- | ------ | -------- |
+| other    | `vec3` | +        |
+
+```
+vec:angle_between( other ): float
+```
+
+### rotated
+
+| Argument | Type     | Required |
+| -------- | -------- | -------- |
+| angle    | `number` | +        |
+
+```
+vec:rotated( angle ): vec3
+```
+
+### extend
+
+| Argument | Type     | Required |
+| -------- | -------- | -------- |
+| to       | `vec3`   | +        |
+| distance | `number` | +        |
+
+```
+vec:extend( to, distance ): vec3
+```
+
+### to\_screen
+
+```lua
+vec:to_screen(): vec2 | nil
+```

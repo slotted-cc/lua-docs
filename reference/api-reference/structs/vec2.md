@@ -7,6 +7,18 @@
 
 ## Functions
 
-length
+### length
 
-dist\_to
+```
+vec:length(): number
+```
+
+### dist\_to
+
+| Argument | Type   | Required |
+| -------- | ------ | -------- |
+| other    | `vec2` | +        |
+
+```
+vec:dist_to( other ): numver
+```
