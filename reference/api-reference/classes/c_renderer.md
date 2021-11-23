@@ -50,12 +50,6 @@ g_render:triangle(left, right, bottom, color, thickness)
 g_render:filled_triangle(left, right, bottom, color)
 ```
 
-### text
-
-### text\_shadow
-
-### get\_text\_size
-
 ### load\_texture\_from\_file
 
 ```
