@@ -91,7 +91,7 @@ g_render:circle_3d(position, color, radius, flags, segments, thickness)
 | right     | `vec2`   | +        |
 | bottom    | `vec2`   | +        |
 | color     | `color`  | +        |
-| thickness | `number` |          |
+| thickness | `number` | +        |
 
 ```
 g_render:triangle(left, right, bottom, color, thickness)
