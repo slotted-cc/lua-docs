@@ -61,6 +61,6 @@ g_features.buff_cache:can_cast(object_index): bool
 | object\_index | `number` | +        |
 
 ```
-g_features.buff_cache:get_all_buffs(object_index): table< buff_cache_t >
+g_features.buff_cache:get_all_buffs(object_index): table<buff_cache_t>
 ```
 
