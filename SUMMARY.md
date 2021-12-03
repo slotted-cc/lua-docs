@@ -7,6 +7,7 @@
 
 * [API Reference](reference/api-reference/README.md)
   * [Enums](reference/api-reference/enums/README.md)
+    * [e\_spell\_flag](reference/api-reference/enums/e\_spell\_flag.md)
     * [e\_key\_state](reference/api-reference/enums/e\_key\_state.md)
     * [e\_mouse\_button](reference/api-reference/enums/e\_mouse\_button.md)
     * [e\_key](reference/api-reference/enums/e\_key.md)
@@ -20,6 +21,7 @@
     * [cheat](reference/api-reference/tables/cheat.md)
     * [g\_features](reference/api-reference/tables/g\_features.md)
   * [Classes](reference/api-reference/classes/README.md)
+    * [c\_module](reference/api-reference/classes/c\_module.md)
     * [c\_input](reference/api-reference/classes/c\_input.md)
     * [c\_renderer](reference/api-reference/classes/c\_renderer.md)
     * [c\_object](reference/api-reference/classes/c\_object.md)
