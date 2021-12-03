@@ -51,3 +51,16 @@ local registered = cheat.register_module({
     end
 })
 ```
+
+### get\_module\_by\_champion
+
+| Argument       | Type     | Required |
+| -------------- | -------- | -------- |
+| champion\_name | `string` | +        |
+
+```lua
+cheat.get_module_by_champion(champion_name): c_module | nil
+
+-- example usage
+local ez = cheat.get_module_by_champion("Ezreal")
+```
