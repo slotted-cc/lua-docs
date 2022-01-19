@@ -19,7 +19,7 @@
     * [menu](reference/api-reference/tables/menu.md)
     * [easing](reference/api-reference/tables/easing.md)
     * [cheat](reference/api-reference/tables/cheat.md)
-    * [g\_features](reference/api-reference/tables/g\_features.md)
+    * [features](reference/api-reference/tables/features.md)
   * [Classes](reference/api-reference/classes/README.md)
     * [c\_module](reference/api-reference/classes/c\_module.md)
     * [c\_input](reference/api-reference/classes/c\_input.md)
