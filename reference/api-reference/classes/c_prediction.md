@@ -14,7 +14,7 @@
 | source\_position  | `vec3`   | +        |
 
 ```lua
-g_features.prediction:predict( 
+features.prediction:predict( 
     index,
     projectile_range,
     projectile_speed,
@@ -32,7 +32,7 @@ g_features.prediction:predict(
 | time     | `number` | +        |
 
 ```lua
-g_features.prediction:predict_default( 
+features.prediction:predict_default( 
     index,
     time
 ): vec3 | nil
@@ -46,7 +46,7 @@ g_features.prediction:predict_default(
 | time     | `number`   | +        |
 
 ```lua
-g_features.prediction:predict_health( 
+features.prediction:predict_health( 
     object,
     time
 ): number
@@ -62,7 +62,7 @@ g_features.prediction:predict_health(
 | ignored\_network\_id | `number` | +        |
 
 ```lua
-g_features.prediction:minion_in_line( 
+features.prediction:minion_in_line( 
     start_pos,
     end_pos,
     projectile_width,
