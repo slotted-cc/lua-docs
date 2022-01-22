@@ -81,8 +81,8 @@ g_features.orbwalker:reset_aa_timer()
 g_features.orbwalker:can_attack(): bool
 ```
 
-### should\_rest_\__aa
+### should\_reset_\__aa
 
 ```lua
-g_features.orbwalker:should_rest_aa(): bool
+g_features.orbwalker:should_reset_aa(): bool
 ```
