@@ -187,3 +187,8 @@ object:get_spell_book(): c_spell_book
 object:get_buff_manager(): c_buff_manager
 ```
 
+### get\_object\_name
+
+```lua
+object:get_object_name(): string
+```
