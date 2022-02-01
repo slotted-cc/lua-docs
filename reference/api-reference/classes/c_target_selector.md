@@ -35,3 +35,14 @@ features.target_selector:is_forced(): bool
 ```lua
 features.target_selector:is_bad_target(index): bool
 ```
+
+### force\_target
+
+| Argument | Type                | Required |
+| -------- | ------------------- | -------- |
+| object   | number \| c\_object | +        |
+
+```lua
+features.target_selector:force_target(object): bool
+-- To reset forced target call force_target with nil or -1 as object argument
+```
