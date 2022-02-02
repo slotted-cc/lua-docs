@@ -4,7 +4,7 @@
 
 | Argument | Type                             | Required |
 | -------- | -------------------------------- | -------- |
-| position | ``[`vec3`](../structs/vec3.md)`` | +        |
+| position | [`vec3`](../structs/vec3.md) | +        |
 
 ```lua
 g_input:set_cursor_position(position)
