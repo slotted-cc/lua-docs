@@ -78,9 +78,7 @@ module:disable_r_on(func)
 
 ### get\_slot\_q
 
-```
-module:get_slot_q(): c_spell_slot
-```
+`module:get_slot_q():` [`c_spell_slot`](c\_spell\_slot.md)``
 
 ### get\_slot\_w
 
