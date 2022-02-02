@@ -8,27 +8,19 @@
 
 ### spell\_q
 
-```lua
-module:spell_q(): bool
-```
+`module:spell_q():` `bool`
 
 ### spell\_w
 
-```
-module:spell_w(): bool
-```
+`module:spell_w():` `bool`
 
 ### spell\_e
 
-```
-module:spell_e(): bool
-```
+`module:spell_e():` `bool`
 
 ### spell\_r
 
-```
-module:spell_r(): bool
-```
+`module:spell_r():` `bool`
 
 ### disable\_q\_on
 
@@ -36,9 +28,9 @@ module:spell_r(): bool
 | -------- | ---------- | -------- |
 | func     | `function` | +        |
 
-```lua
-module:disable_q_on(func)
+`module:disable_q_on(func):` `void`
 
+```lua
 -- example usage
 module:disable_q_on(function()
     -- always disable q
@@ -52,9 +44,7 @@ end)
 | -------- | ---------- | -------- |
 | func     | `function` | +        |
 
-```lua
-module:disable_w_on(func)
-```
+`module:disable_w_on(func):` `void`
 
 ### disable\_e\_on
 
@@ -62,9 +52,7 @@ module:disable_w_on(func)
 | -------- | ---------- | -------- |
 | func     | `function` | +        |
 
-```lua
-module:disable_e_on(func)
-```
+`module:disable_e_on(func):` `void`
 
 ### disable\_r\_on
 
@@ -72,28 +60,20 @@ module:disable_e_on(func)
 | -------- | ---------- | -------- |
 | func     | `function` | +        |
 
-```lua
-module:disable_r_on(func)
-```
+`module:disable_r_on(func):` `void`
 
 ### get\_slot\_q
 
-`module:get_slot_q():` [`c_spell_slot`](c\_spell\_slot.md)``
+`module:get_slot_q():` [`c_spell_slot`](c\_spell\_slot.md)
 
 ### get\_slot\_w
 
-```
-module:get_slot_w(): c_spell_slot
-```
+`module:get_slot_w():` [`c_spell_slot`](c\_spell\_slot.md)
 
 ### get\_slot\_e
 
-```
-module:get_slot_e(): c_spell_slot
-```
+`module:get_slot_e():` [`c_spell_slot`](c\_spell\_slot.md)
 
 ### get\_slot\_r
 
-```
-module:get_slot_r(): c_spell_slot
-```
+`module:get_slot_r():` [`c_spell_slot`](c\_spell\_slot.md)
