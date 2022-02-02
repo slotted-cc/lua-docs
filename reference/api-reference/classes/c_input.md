@@ -52,7 +52,7 @@ g_input:issue_order_move(position)
 
 | Argument           | Type                                     | Required |
 | ------------------ | ---------------------------------------- | -------- |
-| object/network\_id | [`c_object`](c\_object.md) | `number`   | +        |
+| object/network\_id | [`c_object`](c\_object.md) \| `number`    | +        |
 
 ```
 g_input:issue_order_attack(object/network_id)
