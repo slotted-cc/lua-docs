@@ -2,30 +2,36 @@
 
 ## Members
 
-* `level:` `number`
-* `cooldown_expire:` `number`
-* `charges:` `number`
-* `final_cooldown_expire:` `number`
-* `cooldown:` `number`
-* `effect_amount:` `number`
-* `increase_damage:` `number`
-* `spell_duration:` `number`
-* `root_duration:` `number`
-* `increase_damage_bonus:` `number`
-* `coefficient:` `number`
-* `coefficient2:` `number`
-* `cooldown_time:` `number`
+* `level: number`
+* `cooldown_expire: number`
+* `charges: number`
+* `final_cooldown_expire: number`
+* `cooldown: number`
+* `effect_amount: number`
+* `increase_damage: number`
+* `spell_duration: number`
+* `root_duration: number`
+* `increase_damage_bonus: number`
+* `coefficient: number`
+* `coefficient2: number`
+* `cooldown_time: number`
 
 ## Functions
 
 ### get\_mana\_cost
 
-`spell_slot:get_mana_cost():` `number`
+```lua
+spell_slot:get_mana_cost(): number
+```
 
 ### get\_name
 
-`spell_slot:get_name():` `string`
+```lua
+spell_slot:get_name(): string
+```
 
 ### is\_ready
 
-`spell_slot:is_ready():` `bool`
+```lua
+spell_slot:is_ready(): bool
+```

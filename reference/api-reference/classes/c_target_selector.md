@@ -20,17 +20,17 @@
 
 ### is\_bad\_target
 
-| Argument | Type   | Required |
-| -------- | ------ | -------- |
-| index    | number | +        |
+| Argument | Type     | Required |
+| -------- | -------- | -------- |
+| index    | `number` | +        |
 
 `features.target_selector:is_bad_target(index):` `bool`
 
 ### force\_target
 
-| Argument | Type                | Required |
-| -------- | ------------------- | -------- |
-| object   | number \| c\_object | +        |
+| Argument | Type                                     | Required |
+| -------- | ---------------------------------------- | -------- |
+| object   | `number` \| [`c_object`](c\_object.md)`` | +        |
 
 To reset forced target call force\_target with nil or -1 as object argument
 
