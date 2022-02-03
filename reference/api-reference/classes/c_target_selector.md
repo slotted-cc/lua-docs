@@ -4,27 +4,19 @@
 
 ### get\_default\_target
 
-```lua
-features.target_selector:get_default_target(): c_object | nil
-```
+`features.target_selector:get_default_target():` [`c_object`](c\_object.md) | `nil`
 
 ### get\_orbwalker\_default\_target
 
-```lua
-features.target_selector:get_orbwalker_default_target(): c_object | nil
-```
+`features.target_selector:get_orbwalker_default_target():` [`c_object`](c\_object.md) | `nil`
 
 ### get\_forced\_target
 
-```lua
-features.target_selector:get_forced_target(): c_object | nil
-```
+`features.target_selector:get_forced_target():` [`c_object`](c\_object.md) | `nil`
 
 ### is\_forced
 
-```lua
-features.target_selector:is_forced(): bool
-```
+`features.target_selector:is_forced():` `bool`
 
 ### is\_bad\_target
 
@@ -32,9 +24,7 @@ features.target_selector:is_forced(): bool
 | -------- | ------ | -------- |
 | index    | number | +        |
 
-```lua
-features.target_selector:is_bad_target(index): bool
-```
+`features.target_selector:is_bad_target(index):` `bool`
 
 ### force\_target
 
@@ -42,7 +32,8 @@ features.target_selector:is_bad_target(index): bool
 | -------- | ------------------- | -------- |
 | object   | number \| c\_object | +        |
 
-```lua
-features.target_selector:force_target(object): bool
--- To reset forced target call force_target with nil or -1 as object argument
-```
+To reset forced target call force\_target with nil or -1 as object argument
+
+`features.target_selector:force_target(object):` `bool`
+
+``
