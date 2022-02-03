@@ -9,14 +9,14 @@
 | object\_index | `number` | +        |
 | name          | `string` | +        |
 
-`features.buff_cache:get_buff(object_name, name):` [`buff_cache_t`](../structs/buff\_cache\_t.md)``
+`features.buff_cache:get_buff(object_name, name):` [`buff_cache_t`](../structs/buff\_cache\_t.md)
 
 ### has\_buff\_of\_typ**e**
 
 | Argument      | Type                                   | Required |
 | ------------- | -------------------------------------- | -------- |
 | object\_index | `number`                               | +        |
-| type          | ``[`e_buff_type`](c\_buff\_cache.md)`` | +        |
+| type          | [`e_buff_type`](c\_buff\_cache.md)     | +        |
 
 `features.buff_cache:get_buff(object_index, type):` `bool`
 
@@ -50,4 +50,4 @@
 | ------------- | -------- | -------- |
 | object\_index | `number` | +        |
 
-`features.buff_cache:get_all_buffs(object_index):` [`table<buff_cache_t>`](../structs/buff\_cache\_t.md)``
+`features.buff_cache:get_all_buffs(object_index):` [`table<buff_cache_t>`](../structs/buff\_cache\_t.md)
