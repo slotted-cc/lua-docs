@@ -1,17 +1,17 @@
 # c\_prediction
 
-## Functions
+## Functions1
 
 ### predict
 
-| Argument          | Type     | Required |
-| ----------------- | -------- | -------- |
-| index             | `number` | +        |
-| projectile\_range | `number` | +        |
-| projectile\_speed | `number` | +        |
-| projectile\_width | `number` | +        |
-| delay             | `number` | +        |
-| source\_position  | `vec3`   | +        |
+| Argument          | Type                             | Required |
+| ----------------- | -------------------------------- | -------- |
+| index             | `number`                         | +        |
+| projectile\_range | `number`                         | +        |
+| projectile\_speed | `number`                         | +        |
+| projectile\_width | `number`                         | +        |
+| delay             | `number`                         | +        |
+| source\_position  | ``[`vec3`](../structs/vec3.md)`` | +        |
 
 ```lua
 features.prediction:predict( 
@@ -40,10 +40,10 @@ features.prediction:predict_default(
 
 ### predict\_health
 
-| Argument | Type       | Required |
-| -------- | ---------- | -------- |
-| object   | `c_object` | +        |
-| time     | `number`   | +        |
+| Argument | Type                           | Required |
+| -------- | ------------------------------ | -------- |
+| object   | ``[`c_object`](c\_object.md)`` | +        |
+| time     | `number`                       | +        |
 
 ```lua
 features.prediction:predict_health( 
@@ -54,12 +54,12 @@ features.prediction:predict_health(
 
 ### minion\_in\_line
 
-| Argument             | Type     | Required |
-| -------------------- | -------- | -------- |
-| start\_pos           | `vec3`   | +        |
-| end\_pos             | `vec3`   | +        |
-| projectile\_width    | `number` | +        |
-| ignored\_network\_id | `number` | +        |
+| Argument             | Type                             | Required |
+| -------------------- | -------------------------------- | -------- |
+| start\_pos           | ``[`vec3`](../structs/vec3.md)`` | +        |
+| end\_pos             | ``[`vec3`](../structs/vec3.md)`` | +        |
+| projectile\_width    | `number`                         | +        |
+| ignored\_network\_id | `number`                         | +        |
 
 ```lua
 features.prediction:minion_in_line( 

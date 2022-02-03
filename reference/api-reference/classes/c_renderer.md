@@ -1,114 +1,98 @@
 # c\_renderer
 
-## Functions
+## Functions1
 
 ### line
 
-| Argument   | Type     | Required |
-| ---------- | -------- | -------- |
-| start\_pos | `vec2`   | +        |
-| end\_pos   | `vec2`   | +        |
-| color      | `color`  | +        |
-| thickness  | `number` | +        |
+| Argument   | Type                             | Required |
+| ---------- | -------------------------------- | -------- |
+| start\_pos | ``[`vec2`](../structs/vec2.md)`` | +        |
+| end\_pos   | ``[`vec2`](../structs/vec2.md)`` | +        |
+| color      | `color`                          | +        |
+| thickness  | `number`                         | +        |
 
-```lua
-g_render:line(start_pos, end_pos, color, thickness)
-```
+`g_render:line(start_pos, end_pos, color, thickness):` `void`
 
 ### box
 
-| Argument  | Type     | Required |
-| --------- | -------- | -------- |
-| position  | `vec2`   | +        |
-| size      | `vec2`   | +        |
-| color     | `color`  | +        |
-| rounding  | `number` | +        |
-| thickness | `number` | +        |
+| Argument  | Type                         | Required |
+| --------- | ---------------------------- | -------- |
+| position  | [`vec2`](../structs/vec2.md) | +        |
+| size      | [`vec2`](../structs/vec2.md) | +        |
+| color     | `color`                      | +        |
+| rounding  | `number`                     | +        |
+| thickness | `number`                     | +        |
 
-```
-g_render:box(position, size, color, rounding, thickness)
-```
+`g_render:box(position, size, color, rounding, thickness):` `void`
 
 ### filled\_box
 
-| Argument | Type     | Required |
-| -------- | -------- | -------- |
-| position | `vec2`   | +        |
-| size     | `vec2`   | +        |
-| color    | `color`  | +        |
-| rounding | `number` | +        |
+| Argument | Type                         | Required |
+| -------- | ---------------------------- | -------- |
+| position | [`vec2`](../structs/vec2.md) | +        |
+| size     | [`vec2`](../structs/vec2.md) | +        |
+| color    | `color`                      | +        |
+| rounding | `number`                     | +        |
 
-```
-g_render:filled_box(position, size, color, rounding)
-```
+`g_render:circle(position, color, radius, segments):` `void`
 
 ### circle
 
-| Argument | Type     | Required |
-| -------- | -------- | -------- |
-| position | `vec2`   | +        |
-| color    | `color`  | +        |
-| radius   | `number` | +        |
-| segments | `number` | +        |
+| Argument | Type                         | Required |
+| -------- | ---------------------------- | -------- |
+| position | [`vec2`](../structs/vec2.md) | +        |
+| color    | `color`                      | +        |
+| radius   | `number`                     | +        |
+| segments | `number`                     | +        |
 
-```
-g_render:circle(position, color, radius, segments)
-```
+`g_render:circle(position, color, radius, segments):` `void`
 
 ### filled\_circle
 
-| Argument | Type     | Required |
-| -------- | -------- | -------- |
-| position | `vec2`   | +        |
-| color    | `color`  | +        |
-| radius   | `number` | +        |
-| segments | `number` | +        |
+| Argument | Type                         | Required |
+| -------- | ---------------------------- | -------- |
+| position | [`vec2`](../structs/vec2.md) | +        |
+| color    | `color`                      | +        |
+| radius   | `number`                     | +        |
+| segments | `number`                     | +        |
 
-```
-g_render:filled_circle(position, color, radius, segments)
-```
+`g_render:filled_circle(position, color, radius, segments):` `void`
 
 ### circle\_3d
 
-| Argument  | Type     | Required |
-| --------- | -------- | -------- |
-| position  | `vec3`   | +        |
-| color     | `color`  | +        |
-| radius    | `number` | +        |
-| flags     | `number` | +        |
-| segments  | `number` | +        |
-| thickness | `number` | +        |
+| Argument  | Type                             | Required |
+| --------- | -------------------------------- | -------- |
+| position  | ``[`vec3`](../structs/vec3.md)`` | +        |
+| color     | `color`                          | +        |
+| radius    | `number`                         | +        |
+| flags     | `number`                         | +        |
+| segments  | `number`                         | +        |
+| thickness | `number`                         | +        |
 
-```
-g_render:circle_3d(position, color, radius, flags, segments, thickness)
-```
+`g_render:circle_3d(position, color, radius, flags, segments, thickness):` `void`
 
 ### triangle
 
-| Argument  | Type     | Required |
-| --------- | -------- | -------- |
-| left      | `vec2`   | +        |
-| right     | `vec2`   | +        |
-| bottom    | `vec2`   | +        |
-| color     | `color`  | +        |
-| thickness | `number` | +        |
+| Argument  | Type                         | Required |
+| --------- | ---------------------------- | -------- |
+| left      | [`vec2`](../structs/vec2.md) | +        |
+| right     | [`vec2`](../structs/vec2.md) | +        |
+| bottom    | [`vec2`](../structs/vec2.md) | +        |
+| color     | `color`                      | +        |
+| thickness | `number`                     | +        |
 
-```
-g_render:triangle(left, right, bottom, color, thickness)
-```
+`g_render:triangle(left, right, bottom, color, thickness):` `void`
 
 ### filled\_triangle
 
-| Argument | Type    | Required |
-| -------- | ------- | -------- |
-| left     | `vec2`  | +        |
-| right    | `vec2`  | +        |
-| bottom   | `vec2`  | +        |
-| color    | `color` | +        |
+| Argument | Type                         | Required |
+| -------- | ---------------------------- | -------- |
+| left     | [`vec2`](../structs/vec2.md) | +        |
+| right    | [`vec2`](../structs/vec2.md) | +        |
+| bottom   | [`vec2`](../structs/vec2.md) | +        |
+| color    | `color`                      | +        |
 
-```
-g_render:filled_triangle(left, right, bottom, color)
-```
+`g_render:filled_triangle(left, right, bottom, color):` `void`
 
 ### load\_texture\_from\_file
 
@@ -116,24 +100,18 @@ g_render:filled_triangle(left, right, bottom, color)
 | ---------- | -------- | -------- |
 | file\_path | `string` | +        |
 
-```
-g_render:load_texture_from_file(file_path): texture_t
-```
+`g_render:load_texture_from_file(file_path):` `texture_t`
 
 ### image
 
-| Argument | Type        | Required |
-| -------- | ----------- | -------- |
-| position | `vec2`      | +        |
-| size     | `vec2`      | +        |
-| texture  | `texture_t` | +        |
+| Argument | Type                         | Required |
+| -------- | ---------------------------- | -------- |
+| position | [`vec2`](../structs/vec2.md) | +        |
+| size     | [`vec2`](../structs/vec2.md) | +        |
+| texture  | `texture_t`                  | +        |
 
-```
-g_render:image(position, size, texture)
-```
+`g_render:image(position, size, texture):` `void`
 
 ### get\_screensize
 
-```
-g_render:get_screensize(): vec2
-```
+`g_render:get_screensize():` [`vec2`](../structs/vec2.md)``
