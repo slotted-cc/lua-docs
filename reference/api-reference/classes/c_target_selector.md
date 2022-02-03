@@ -1,6 +1,6 @@
 # c\_target\_selector
 
-## Functions1
+## Functions
 
 ### get\_default\_target
 
@@ -30,10 +30,9 @@
 
 | Argument | Type                                     | Required |
 | -------- | ---------------------------------------- | -------- |
-| object   | `number` \| [`c_object`](c\_object.md)`` | +        |
+| object   | `number` \| [`c_object`](c\_object.md)
+| +        |
 
 To reset forced target call force\_target with nil or -1 as object argument
 
 `features.target_selector:force_target(object):` `bool`
-
-``
