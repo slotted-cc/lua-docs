@@ -8,7 +8,7 @@
 | ----------- | -------- | -------- |
 | network\_id | `number` | +        |
 
-`features.orbwalker:send_attack(network_id):` `bool1`
+`features.orbwalker:send_attack(network_id):` `bool`
 
 ### is\_in\_attack
 
@@ -18,7 +18,7 @@
 
 | Argument | Type                             | Required |
 | -------- | -------------------------------- | -------- |
-| position | ``[`vec3`](../structs/vec3.md)`` | +        |
+| position | [`vec3`](../structs/vec3.md)     | +        |
 | force    | `bool`                           | +        |
 
 `features.orbwalker:send_move_input(position, force):` `void`
@@ -51,7 +51,7 @@
 
 ### get\_mode
 
-`features.orbwalker:get_mode():` [`e_orbwalker_mode`](../enums/e\_orbwalker\_mode.md)``
+`features.orbwalker:get_mode():` [`e_orbwalker_mode`](../enums/e\_orbwalker\_mode.md)
 
 ### reset\_aa\_timer
 
