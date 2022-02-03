@@ -7,7 +7,7 @@
 * `team:` `number`
 * `network_id:` `number`
 * `framecount:` `number`
-* `position:` [`vec3`](../structs/vec3.md)``
+* `position:` [`vec3`](../structs/vec3.md)
 * `mana:` `number`
 * `max_mana:` `number`
 * `mana_enabled:` `number`
@@ -32,7 +32,7 @@
 * `total_gold:` `number`
 * `min_gold:` `number`
 * `max_gold:` `number`
-* `champion_name:` [`lstring`](../structs/lstring.md)``
+* `champion_name:` [`lstring`](../structs/lstring.md)
 * `level:` `number`
 
 ## Functions
@@ -131,11 +131,11 @@
 
 ### get\_spell\_book
 
-`object:get_spell_book():` [`c_spell_book`](c\_spell\_book.md)``
+`object:get_spell_book():` [`c_spell_book`](c\_spell\_book.md)
 
 ### get\_buff\_manager
 
-`object:get_buff_manager():` [`c_buff_manager`](c\_buff\_manager.md)``
+`object:get_buff_manager():` [`c_buff_manager`](c\_buff\_manager.md)
 
 ### get\_object\_name
 
