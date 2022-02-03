@@ -38,6 +38,7 @@
     * [c\_target\_selector](reference/api-reference/classes/c\_target\_selector.md)
   * [Structs](reference/api-reference/structs/README.md)
     * [buff\_cache\_t](reference/api-reference/structs/buff\_cache\_t.md)
+    * [color](reference/api-reference/structs/color.md)
     * [champion\_module\_spell\_data\_t](reference/api-reference/structs/champion\_module\_spell\_data\_t.md)
     * [lstring](reference/api-reference/structs/lstring.md)
     * [prediction\_result\_t](reference/api-reference/structs/prediction\_result\_t.md)
