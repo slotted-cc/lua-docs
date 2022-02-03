@@ -1,13 +1,13 @@
 # c\_renderer
 
-## Functions1
+## Functions
 
 ### line
 
 | Argument   | Type                             | Required |
 | ---------- | -------------------------------- | -------- |
-| start\_pos | ``[`vec2`](../structs/vec2.md)`` | +        |
-| end\_pos   | ``[`vec2`](../structs/vec2.md)`` | +        |
+| start\_pos | [`vec2`](../structs/vec2.md)     | +        |
+| end\_pos   | [`vec2`](../structs/vec2.md)     | +        |
 | color      | `color`                          | +        |
 | thickness  | `number`                         | +        |
 
@@ -62,7 +62,7 @@
 
 | Argument  | Type                             | Required |
 | --------- | -------------------------------- | -------- |
-| position  | ``[`vec3`](../structs/vec3.md)`` | +        |
+| position  | [`vec3`](../structs/vec3.md)     | +        |
 | color     | `color`                          | +        |
 | radius    | `number`                         | +        |
 | flags     | `number`                         | +        |
@@ -114,4 +114,4 @@
 
 ### get\_screensize
 
-`g_render:get_screensize():` [`vec2`](../structs/vec2.md)``
+`g_render:get_screensize():` [`vec2`](../structs/vec2.md)
