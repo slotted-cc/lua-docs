@@ -8,4 +8,4 @@
 
 ### get\_all
 
-`buff_manager:get_all():` [`table<c_buff>`](c\_buff.md)``
+`buff_manager:get_all():` [`table<c_buff>`](c\_buff.md)
