@@ -10,7 +10,7 @@
 
 ### get\_cursor\_position
 
-`g_input:get_cursor_position():` [`vec2`](../structs/vec2.md)`3`
+`g_input:get_cursor_position():` [`vec2`](../structs/vec2.md)
 
 ### send\_key\_event
 
