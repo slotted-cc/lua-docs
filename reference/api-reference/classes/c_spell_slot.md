@@ -1,6 +1,6 @@
 # c\_spell\_slot
 
-## Members1
+## Members
 
 * `level:` `number`
 * `cooldown_expire:` `number`
