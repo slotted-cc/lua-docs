@@ -16,7 +16,7 @@
 | Argument      | Type                                   | Required |
 | ------------- | -------------------------------------- | -------- |
 | object\_index | `number`                               | +        |
-| type          | [`e_buff_type`](c\_buff\_cache.md)     | +        |
+| type          | [`e_buff_type`](../enums/e\_buff\_type.md)     | +        |
 
 `features.buff_cache:get_buff(object_index, type):` `bool`
 
