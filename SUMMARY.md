@@ -46,3 +46,7 @@
     * [vec2](reference/api-reference/structs/vec2.md)
     * [vec3](reference/api-reference/structs/vec3.md)
   * [Globals](reference/api-reference/globals.md)
+
+## Examples
+
+* [turret range](examples/turret-range.md)
