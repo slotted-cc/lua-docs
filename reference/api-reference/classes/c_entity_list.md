@@ -37,3 +37,19 @@
 | index    | `number` | +        |
 
 `features.entity_list:get_by_index(index):` [`c_object`](c\_object.md) | `nil`
+
+### on\_pre\_call
+
+| Argument | Type       | Required |
+| -------- | ---------- | -------- |
+| callback | `function` | +        |
+
+`features.entity_list:on_pre_call(callback):` `void`
+
+### on\_post\_call
+
+| Argument | Type       | Required |
+| -------- | ---------- | -------- |
+| callback | `function` | +        |
+
+`features.entity_list:on_post_call(callback):` `void`

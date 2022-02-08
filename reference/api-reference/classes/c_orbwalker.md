@@ -16,10 +16,10 @@
 
 ### send\_move\_input
 
-| Argument | Type                             | Required |
-| -------- | -------------------------------- | -------- |
-| position | [`vec3`](../structs/vec3.md)     | +        |
-| force    | `bool`                           | +        |
+| Argument | Type                         | Required |
+| -------- | ---------------------------- | -------- |
+| position | [`vec3`](../structs/vec3.md) | +        |
+| force    | `bool`                       | +        |
 
 `features.orbwalker:send_move_input(position, force):` `void`
 
@@ -61,6 +61,22 @@
 
 `features.orbwalker:can_attack():` `bool`
 
-### should\_reset_\__aa
+### should\_reset\_\_\_aa
 
 `features.orbwalker:should_reset_aa():` `bool`
+
+### on\_pre\_call
+
+| Argument | Type       | Required |
+| -------- | ---------- | -------- |
+| callback | `function` | +        |
+
+`features.orbwalker:on_pre_call(callback):` `void`
+
+### on\_post\_call
+
+| Argument | Type       | Required |
+| -------- | ---------- | -------- |
+| callback | `function` | +        |
+
+`features.orbwalker:on_post_call(callback):` `void`
