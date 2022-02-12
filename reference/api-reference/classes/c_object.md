@@ -140,3 +140,7 @@
 ### get\_object\_name
 
 `object:get_object_name():` `string`
+
+### get\_ability\_power
+
+`object:`get\_ability\_power`():` `number`
