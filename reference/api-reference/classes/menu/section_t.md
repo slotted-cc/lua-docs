@@ -10,7 +10,7 @@
 
 ### checkbox
 
-`section:checkbox(label, config_var, tooltip = nil):` [`c_checkbox`](components/c\_checkbox.md)``
+`section:checkbox(label, config_var):` [`c_checkbox`](components/c\_checkbox.md)``
 
 ### select
 
