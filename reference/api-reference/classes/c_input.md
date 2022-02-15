@@ -63,3 +63,11 @@
 | position | [`vec3`](../structs/vec3.md)                 | +        |
 
 `g_input:release_chargable(slot, position):` `void`
+
+### is\_key\_pressed
+
+| Argument | Type                            | Required |
+| -------- | ------------------------------- | -------- |
+| `key`    | [`e_key`](../enums/e\_key.md)`` | +        |
+
+`g_input:is_key_pressed(key):` `bool`
