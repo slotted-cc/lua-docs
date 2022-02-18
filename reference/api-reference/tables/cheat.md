@@ -14,6 +14,10 @@ cheat.register_callback(name, callback)
 cheat.register_callback("render", function()
     print("hello from render callback")    
 end)
+
+cheat.register_callback("champion_create", function(champ)
+    print(champ.champion_name.text)    
+end)
 ```
 
 #### Available callbacks
@@ -21,6 +25,8 @@ end)
 * `feature`
 * `render`
 * `pre_feature`
+* `champion_create`
+* `champion_delete`
 
 ### register\_module
 
