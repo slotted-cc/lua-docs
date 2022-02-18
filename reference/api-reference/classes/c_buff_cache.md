@@ -9,7 +9,7 @@
 | object\_index | `number` | +        |
 | name          | `string` | +        |
 
-`features.buff_cache:get_buff(object_name, name):` [`buff_cache_t`](../structs/buff\_cache\_t.md)
+`features.buff_cache:get_buff(object_index, name):` [`buff_cache_t`](../structs/buff\_cache\_t.md)
 
 ### has\_buff\_of\_typ**e**
 
