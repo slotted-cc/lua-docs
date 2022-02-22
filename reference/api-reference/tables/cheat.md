@@ -34,15 +34,16 @@ end)
 | -------- | ------- | -------- |
 | module   | `table` | +        |
 
-| Key            | Type       | Return type | Required |
-| -------------- | ---------- | ----------- | -------- |
-| champion\_name | `string`   | -           | +        |
-| on\_draw       | `function` | -           | -        |
-| spell\_q       | `function` | bool        | -        |
-| spell\_w       | `function` | bool        | -        |
-| spell\_e       | `function` | bool        | -        |
-| spell\_r       | `function` | bool        | -        |
-| initialize     | `function` | -           | -        |
+| Key             | Type       | Return type | Required |
+| --------------- | ---------- | ----------- | -------- |
+| champion\_name  | `string`   | -           | +        |
+| get\_priorities | `function` | -           | +        |
+| on\_draw        | `function` | -           | -        |
+| spell\_q        | `function` | bool        | -        |
+| spell\_w        | `function` | bool        | -        |
+| spell\_e        | `function` | bool        | -        |
+| spell\_r        | `function` | bool        | -        |
+| initialize      | `function` | -           | -        |
 
 Data passed to all spell\_\* functions is of type [champion\_module\_spell\_data\_t](../structs/champion\_module\_spell\_data\_t.md).
 
@@ -51,9 +52,12 @@ Functions for spells will only be called when the slot is ready.
 ```lua
 -- example usage 
 local registered = cheat.register_module({
-    "champion_name" = "Ezreal",
-    "spell_q" = function(data)
+    champion_name = "Ezreal",
+    spell_q = function(data)
         return false
+    end,
+    get_priorities = function()
+        return { "spell_w", "spell_q", "spell_e", "spell_r" }
     end
 })
 ```
