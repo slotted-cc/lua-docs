@@ -36,14 +36,14 @@ end)
 
 | Key             | Type       | Return type | Required |
 | --------------- | ---------- | ----------- | -------- |
-| champion\_name  | `string`   | -           | +        |
-| get\_priorities | `function` | -           | +        |
-| on\_draw        | `function` | -           | -        |
-| spell\_q        | `function` | bool        | -        |
-| spell\_w        | `function` | bool        | -        |
-| spell\_e        | `function` | bool        | -        |
-| spell\_r        | `function` | bool        | -        |
-| initialize      | `function` | -           | -        |
+| champion\_name  | `string`   | `void`      | +        |
+| get\_priorities | `function` | `void`      | +        |
+| on\_draw        | `function` | `void`      | -        |
+| spell\_q        | `function` | `bool`      | -        |
+| spell\_w        | `function` | `bool`      | -        |
+| spell\_e        | `function` | `bool`      | -        |
+| spell\_r        | `function` | `bool`      | -        |
+| initialize      | `function` | `void`      | -        |
 
 Data passed to all spell\_\* functions is of type [champion\_module\_spell\_data\_t](../structs/champion\_module\_spell\_data\_t.md).
 
