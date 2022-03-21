@@ -6,12 +6,13 @@
 
 | Argument          | Type                         | Required |
 | ----------------- | ---------------------------- | -------- |
-| index             | `number`                     | +        |
+| target\_index     | `number`                     | +        |
 | projectile\_range | `number`                     | +        |
 | projectile\_speed | `number`                     | +        |
 | projectile\_width | `number`                     | +        |
 | delay             | `number`                     | +        |
-| source\_position  | [`vec3`](../structs/vec3.md) | +        |
+| source\_position  | [`vec3`](../structs/vec3.md) | -        |
+| extend            | `bool`                       | -        |
 
 ```lua
 features.prediction:predict( 
@@ -20,7 +21,8 @@ features.prediction:predict(
     projectile_speed,
     projectile_width,
     delay,
-    source_position
+    source_position,
+    false
 ): prediction_result_t
 ```
 
@@ -40,15 +42,17 @@ features.prediction:predict_default(
 
 ### predict\_health
 
-| Argument | Type                       | Required |
-| -------- | -------------------------- | -------- |
-| object   | [`c_object`](c\_object.md) | +        |
-| time     | `number`                   | +        |
+| Argument          | Type                       | Required |
+| ----------------- | -------------------------- | -------- |
+| object            | [`c_object`](c\_object.md) | +        |
+| time              | `number`                   | +        |
+| multiple\_attacks | bool                       | -        |
 
 ```lua
 features.prediction:predict_health( 
     object,
-    time
+    time,
+    false
 ): number
 ```
 
