@@ -74,6 +74,10 @@ features.prediction:minion_in_line(
 ): bool
 ```
 
+### count\_minions\_in\_line
+
+`features.prediction:count_minions_in_line(start_position, end_position, projectile_width, ignored_network_id):` `number`
+
 ### on\_pre\_call
 
 | Argument | Type       | Required |
