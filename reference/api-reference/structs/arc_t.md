@@ -1,5 +1,9 @@
 # arc\_t
 
+## Constructors
+
+`arc_t:new(start, end, hitbox)`
+
 ## Members
 
 * `end:` [`vec3`](vec3.md)``

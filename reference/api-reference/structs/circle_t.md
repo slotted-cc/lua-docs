@@ -1,5 +1,9 @@
 # circle\_t
 
+## Constructors
+
+`circle_t:new(center, radius)`
+
 ## Members
 
 * `center:` [`vec3`](vec3.md)``

@@ -1,5 +1,9 @@
 # ring\_t
 
+## Constructors
+
+`ring_t:new(center, radius, ring_radius)`
+
 ## Members
 
 * `center:` [`vec3`](vec3.md)``

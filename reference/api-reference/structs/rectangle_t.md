@@ -1,5 +1,9 @@
 # rectangle\_t
 
+## Constructors
+
+`rectangle_t:new(start, end, width_start)`
+
 ## Members
 
 * `direction:` [`vec3`](vec3.md)``

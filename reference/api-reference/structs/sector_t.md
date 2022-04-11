@@ -1,5 +1,9 @@
 # sector\_t
 
+## Constructors
+
+`sector_t:new(center, direction, angle, radius)`
+
 ## Members
 
 * `angle: number`
