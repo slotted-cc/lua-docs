@@ -15,3 +15,10 @@
 * `end_time:` `number`
 * `alt_amount:` `number`
 * `name:` `string`
+* `amount: number`
+
+### Functions
+
+```
+c_buff:get_amount()
+```
