@@ -38,6 +38,10 @@
 
 `features.entity_list:get_by_index(index):` [`c_object`](c\_object.md) | `nil`
 
+### get\_all
+
+`features.entity_list:get_all():` [`table<c_object>`](c\_object.md)``
+
 ### on\_pre\_call
 
 | Argument | Type       | Required |
