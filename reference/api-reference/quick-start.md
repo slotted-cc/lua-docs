@@ -8,6 +8,6 @@ cheat.register_callback("render", function()
 end)
 ```
 
-{% content-ref url="reference/api-reference/tables/cheat.md" %}
-[cheat.md](reference/api-reference/tables/cheat.md)
+{% content-ref url="tables/cheat.md" %}
+[cheat.md](tables/cheat.md)
 {% endcontent-ref %}

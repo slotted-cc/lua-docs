@@ -1,11 +1,11 @@
 # Table of contents
 
 * [Welcome!](README.md)
-* [Quick Start](quick-start.md)
 
 ## Reference
 
 * [API Reference](reference/api-reference/README.md)
+  * [Quick Start](reference/api-reference/quick-start.md)
   * [Enums](reference/api-reference/enums/README.md)
     * [e\_buff\_type](reference/api-reference/enums/e\_buff\_type.md)
     * [e\_hitchance](reference/api-reference/enums/e\_hitchance.md)
