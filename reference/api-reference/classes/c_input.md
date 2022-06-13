@@ -36,7 +36,7 @@
 | -------- | ---------------------------- | -------- |
 | position | [`vec3`](../structs/vec3.md) | +        |
 
-`g_input:issue_order_move(position):` `void`
+`g_input:issue_order_move(position):` `boolean`
 
 ### issue\_order\_attack
 
@@ -44,7 +44,7 @@
 | ------------------ | -------------------------------------- | -------- |
 | object/network\_id | [`c_object`](c\_object.md) \| `number` | +        |
 
-`g_input:issue_order_attack(object/network_id):` `void`
+`g_input:issue_order_attack(object/network_id):` `boolean`
 
 ### cast\_spell
 
@@ -53,7 +53,7 @@
 | slot                        | [`e_spell_slot`](../enums/e\_spell\_slot.md)                           | +        |
 | object/position/network\_id | [`c_object`](c\_object.md) \| [`vec3`](../structs/vec3.md) \| `number` | -        |
 
-`g_input:cast_spell(slot, object/position/network_id):` `void`
+`g_input:cast_spell(slot, object/position/network_id):` `boolean`
 
 ### release\_chargable
 
@@ -62,7 +62,7 @@
 | slot     | [`e_spell_slot`](../enums/e\_spell\_slot.md) | +        |
 | position | [`vec3`](../structs/vec3.md)                 | +        |
 
-`g_input:release_chargable(slot, position):` `void`
+`g_input:release_chargable(slot, position):` `boolean`
 
 ### is\_key\_pressed
 
