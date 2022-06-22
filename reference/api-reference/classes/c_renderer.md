@@ -4,12 +4,12 @@
 
 ### line
 
-| Argument   | Type                             | Required |
-| ---------- | -------------------------------- | -------- |
-| start\_pos | [`vec2`](../structs/vec2.md)     | +        |
-| end\_pos   | [`vec2`](../structs/vec2.md)     | +        |
-| color      | `color`                          | +        |
-| thickness  | `number`                         | +        |
+| Argument   | Type                         | Required |
+| ---------- | ---------------------------- | -------- |
+| start\_pos | [`vec2`](../structs/vec2.md) | +        |
+| end\_pos   | [`vec2`](../structs/vec2.md) | +        |
+| color      | `color`                      | +        |
+| thickness  | `number`                     | +        |
 
 `g_render:line(start_pos, end_pos, color, thickness):` `void`
 
@@ -60,14 +60,14 @@
 
 ### circle\_3d
 
-| Argument  | Type                             | Required |
-| --------- | -------------------------------- | -------- |
-| position  | [`vec3`](../structs/vec3.md)     | +        |
-| color     | `color`                          | +        |
-| radius    | `number`                         | +        |
-| flags     | `number`                         | +        |
-| segments  | `number`                         | +        |
-| thickness | `number`                         | +        |
+| Argument  | Type                         | Required |
+| --------- | ---------------------------- | -------- |
+| position  | [`vec3`](../structs/vec3.md) | +        |
+| color     | `color`                      | +        |
+| radius    | `number`                     | +        |
+| flags     | `number`                     | +        |
+| segments  | `number`                     | +        |
+| thickness | `number`                     | +        |
 
 `g_render:circle_3d(position, color, radius, flags, segments, thickness):` `void`
 
@@ -115,3 +115,25 @@
 ### get\_screensize
 
 `g_render:get_screensize():` [`vec2`](../structs/vec2.md)
+
+### text
+
+`g_render:text(position, color, text, font, size)`
+
+| Argument | Type                               | Required |
+| -------- | ---------------------------------- | -------- |
+| position | [`vec2`](../structs/vec2.md)       | +        |
+| color    | ``[`color`](../structs/color.md)`` | +        |
+| text     | `string`                           | +        |
+| font     | `string`                           | +        |
+| size     | `number`                           | +        |
+
+### get\_text\_size
+
+`g_render:get_text_size(text, font, size): vec2 | nil`
+
+| Argument | Type     | Required |
+| -------- | -------- | -------- |
+| text     | `string` | +        |
+| font     | `string` | +        |
+| size     | `number` | +        |
