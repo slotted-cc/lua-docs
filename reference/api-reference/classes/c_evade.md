@@ -30,3 +30,11 @@
 | callback | `function` | +        |
 
 `features.evade:on_post_call(callback):` `void`
+
+### get\_safe\_position
+
+`features.evade:get_safe_position():` `vec3 | nil`
+
+### disable\_this\_tick
+
+`features.evade:get_safe_position():` `nil`
