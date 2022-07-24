@@ -56,6 +56,7 @@
     * [rectangle\_t](reference/api-reference/structs/rectangle\_t.md)
     * [ring\_t](reference/api-reference/structs/ring\_t.md)
     * [sector\_t](reference/api-reference/structs/sector\_t.md)
+    * [spell\_instance\_t](reference/api-reference/structs/spell\_instance\_t.md)
     * [buff\_cache\_t](reference/api-reference/structs/buff\_cache\_t.md)
     * [config\_var\_t](reference/api-reference/structs/config\_var\_t.md)
     * [color](reference/api-reference/structs/color.md)

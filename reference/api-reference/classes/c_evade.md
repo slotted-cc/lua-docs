@@ -38,3 +38,7 @@
 ### disable\_this\_tick
 
 `features.evade:get_safe_position():` `nil`
+
+### get\_dangerous\_spells
+
+`features.evade:get_dangerous_spells():` `table<`[`spell_instance_t`](../structs/spell\_instance\_t.md)`>`
